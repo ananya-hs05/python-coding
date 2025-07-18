@@ -12,7 +12,7 @@ class Calculator:
         elif self.operation == "multiply":
             return self.a * self.b
         elif self.operation == "divide":
-            return self.a / self.b  # no zero division handling
+            return self.a / self.b  
         else:
             return "Invalid operation"
 
